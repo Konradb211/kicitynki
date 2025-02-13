@@ -5,8 +5,8 @@ const Rebus = () => {
 		<>
 			<h1>Na koniec mały rebus(mega trudny)</h1>
 			<div className={styles.images}>
-				<img src='../../../public/potas.jpeg' alt='' />
-				<img src='../../../public/wegiel.webp' alt='' />
+				<img src='/public/potas.jpeg' alt='Potas' />
+				<img src='/public/wegiel.webp' alt='Węgiel' />
 			</div>
 		</>
 	)
