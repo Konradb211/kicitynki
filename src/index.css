@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ffb2d0;
+	color: #333;
+}

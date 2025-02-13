@@ -1,0 +1,67 @@
+.inputContainer {
+	padding-top: 50px;
+	display: flex;
+}
+
+.inputContent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+.number {
+	display: flex;
+	margin-top: 50px;
+}
+
+.number p {
+	font-size: 40px;
+}
+input {
+	background-color: #ff69b4;
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 10px;
+	transition: background-color 0.3s;
+}
+
+input:focus {
+	border: 2px solid #ff3d9e;
+	outline: none;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.button {
+	background-color: #ff69b4;
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 15px;
+	border-radius: 10px;
+	transition: background-color 0.3s;
+}
+
+.button:hover {
+	background-color: #ff1493;
+}
+
+.button:disabled {
+	background-color: gray;
+	cursor: not-allowed;
+}
+
+.numberButtonContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.numberColor {
+	color: #ff69b4;
+}
